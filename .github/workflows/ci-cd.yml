@@ -25,7 +25,7 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Check Node and npm versions
+      - name: Check Node and npm versions for CI
         run: |
           node --version
           npm --version
